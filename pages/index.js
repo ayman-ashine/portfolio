@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen items-center justify-between bg-slate-900 p-24 gap-10">
+    <main className="flex flex-col min-h-screen items-center justify-between bg-slate-900 py-10 px-2 md:p-24 gap-10">
 
       {/* Introduction */}
 
@@ -17,11 +17,11 @@ export default function Home() {
           <span className="text-blue-400 text-xl font-black">Introduction</span>
         </div>
 
-        <div className='grid grid-cols-2 gap-10 items-center mt-10'>
+        <div className='grid grid-cols-1 gap-10 items-center mt-10 lg:grid-cols-2'>
           <div className='mx-auto'>
             <Image src='/profile.png' width={500} height={500} alt='Profile' />
           </div>
-          <div className='rounded-full'>
+          <div className='text-center md:text-start'>
             <div className='mb-5'>
               <p className='text-yellow-400 font-black text-6xl uppercase'>Welcome!</p>
               <p className='text-blue-400 font-black text-6xl uppercase'>I am Gpx Zero</p>
@@ -97,7 +97,7 @@ const Section = ({ children }) => {
 const Button3D = ({ children }) => {
 
   return (
-    <button className="bg-gradient-to-t from-yellow-400 to-yellow-200 shadow-xl text-black outline-none border-b-4 border-yellow-600 font-bold text-blue-200 py-2 px-4 rounded-lg duration-300 hover:scale-105 hover:brightness-90 hover:border-t-4 hover:border-b-0 hover:border-yellow-400 active:scale-100">
+    <button className="bg-gradient-to-t from-yellow-400 to-yellow-200 shadow-xl text-black outline-none border-b-4 border-yellow-600 font-bold py-2 px-4 rounded-lg rotate-4 duration-300 hover:scale-105 hover:border-t-4 hover:border-b-0 hover:border-yellow-400 active:scale-100 active:brightness-105">
       {children}
     </button>
   )
