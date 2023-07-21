@@ -2,11 +2,11 @@ export const Skills = () => {
     return (
         <>
 
-            <div className="absolute top-0 left-0 flex items-center bg-gradient-to-b from-blue-950 p-4 rounded-lg -rotate-6">
-                <svg class="fill-blue-400 mr-2" width="40px" height="40px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <div className="absolute top-0 left-0 flex items-center bg-blue-400 m-2 p-2 rounded-md">
+                <svg class="fill-blue-900 mr-2" width="40px" height="40px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12,10h7L8,22l3-9H5L13,2Z" />
                 </svg>
-                <span className="text-blue-400 text-xl font-black">Skills</span>
+                <span className="text-blue-900 text-lg font-black">Skills</span>
             </div>
 
             <div className='grid grid-cols-1 gap-5 items-center mt-20 md:grid-cols-2 lg:grid-cols-3'>

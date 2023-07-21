@@ -4,11 +4,11 @@ export const Projects = () => {
   return (
     <>
 
-      <div className="absolute top-0 left-0 flex items-center bg-gradient-to-b from-blue-950 p-4 rounded-lg -rotate-6">
-        <svg class="fill-blue-400 mr-2" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 -64 640 640">
+      <div className="absolute top-0 left-0 flex items-center bg-blue-400 m-2 p-2 rounded-md">
+        <svg class="fill-blue-900 mr-2" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 -64 640 640">
           <path d="M384 320H256c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32zM192 32c0-17.67-14.33-32-32-32H32C14.33 0 0 14.33 0 32v128c0 17.67 14.33 32 32 32h95.72l73.16 128.04C211.98 300.98 232.4 288 256 288h.28L192 175.51V128h224V64H192V32zM608 0H480c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32z" />
         </svg>
-        <span className="text-blue-400 text-xl font-black">Projects</span>
+        <span className="text-blue-900 text-lg font-black">Projects</span>
       </div>
 
       <div className='grid gap-5 items-center mt-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
