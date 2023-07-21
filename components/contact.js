@@ -21,16 +21,24 @@ export const Contact = () => {
             <div className='w-full flex justify-center gap-3 mt-20'>
 
                 <Button>
-                    <img src="https://img.icons8.com/material-rounded/50/github.png" alt="github" />
+                    <a href="https://github.com/catraco" target="blank">
+                        <img src="https://img.icons8.com/material-rounded/50/github.png" alt="github" />
+                    </a>
                 </Button>
                 <Button>
-                    <img src="https://img.icons8.com/material-rounded/50/linkedin--v1.png" alt="linkedin" />
+                    <a href="https://www.linkedin.com/in/ayman-achain-081499260/" target="blank">
+                        <img src="https://img.icons8.com/material-rounded/50/linkedin--v1.png" alt="linkedin" />
+                    </a>
                 </Button>
                 <Button>
-                    <img src="https://img.icons8.com/material-rounded/50/twitter.png" alt="twitter" />
+                    <a href="https://twitter.com/gpx_zero" target="blank">
+                        <img src="https://img.icons8.com/material-rounded/50/twitter.png" alt="twitter" />
+                    </a>
                 </Button>
                 <Button>
-                    <img src="https://img.icons8.com/material-rounded/50/new-post.png" alt="email" />
+                    <a href="mailto:gpx.zero.000@gmail.com" target="blank">
+                        <img src="https://img.icons8.com/material-rounded/50/new-post.png" alt="email" />
+                    </a>
                 </Button>
 
             </div>
