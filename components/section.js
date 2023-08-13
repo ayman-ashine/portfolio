@@ -1,11 +1,9 @@
 export const Section = ({ children }) => {
 
-    return (
-      <div className='w-full flex items-center'>
-        <div className="container relative bg-gradient-to-t from-slate-900 my-10 px-2 py-10 md:p-10 rounded-md">
-          {children}
-        </div>
-      </div>
-    )
-  
-  }
+  return (
+    <div className='w-full h-full flex items-center justify-center bg-gradient-to-b from-emerald-950 to-zinc-900 border border-emerald-600 rounded-b-md overflow-hidden'>
+      {children}
+    </div>
+  )
+
+}
