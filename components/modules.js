@@ -1,7 +1,0 @@
-export { Button } from './button'
-export { Section } from './section'
-export { Introduction } from './introduction'
-export { Skills } from './skills'
-export { Projects } from './projects'
-export { Contact } from './contact'
-export { Nav } from './nav'
