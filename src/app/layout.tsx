@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Josefin_Sans } from 'next/font/google'
 import './globals.css'
 
-const josefin = Josefin_Sans({ subsets: ['latin'], weight: ['300', '700'] })
+const josefin = Josefin_Sans({ subsets: ['latin'], weight: ['400', '700'] })
 
 export const metadata: Metadata = {
   title: 'Gpx Zero',

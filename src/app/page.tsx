@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import gsap from "gsap"
 import {
+  Header,
   Introduction
 } from '@/components/modules'
 
@@ -12,19 +13,25 @@ export default function Home() {
 
   useEffect(() => {
 
-    const TimeLine = gsap.timeline({ defaults: { duration: 1 } })
+    // const TimeLine = gsap.timeline({ defaults: { duration: 1 } })
 
-    TimeLine.from('.section', {
-      yPercent: -100,
-      opacity: 0,
-      ease: 'back'
-    })
-      .from('.title', {
-        xPercent: -100,
-        opacity: 0,
-        ease: 'back',
-        stagger: 0.5
-      })
+    // TimeLine
+    //   .from('.section', {
+    //     yPercent: -100,
+    //     opacity: 0,
+    //     ease: 'back'
+    //   })
+    //   .from('.title', {
+    //     xPercent: -100,
+    //     opacity: 0,
+    //     ease: 'back',
+    //     stagger: 0.5
+    //   })
+    //   .from('.text', {
+    //     yPercent: 100,
+    //     opacity: 0,
+    //     ease: 'back'
+    //   })
 
     // gsap.registerPlugin(SplitText) 
     // let splite = new SplitText('.title', { type: "chars" })
@@ -39,14 +46,9 @@ export default function Home() {
 
   return (
     <main className="main">
-
+      
+      <Header/>
       <Introduction />
-
-      <button
-        className='absolute bg-red-500 bottom-0 left-0 p-4 m-4 rd'
-        onClick={() => setUpdate(state => !state)}
-      >
-      </button>
 
     </main>
   )
