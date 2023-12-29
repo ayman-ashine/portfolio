@@ -8,8 +8,6 @@ export function Introduction() {
 
         <div className="section flex-col-reverse md:flex-row">
 
-            <div className="bg-blue-500 origin-top-left -rotate-45 opacity-10 absolute top-0 left-0 w-[80%] h-[100%]"></div>
-
             <div
                 className="flex flex-col justify-center gap-2 w-full h-1/2 md:w-1/2 md:h-full"
             >
