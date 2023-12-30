@@ -6,7 +6,7 @@ export function Introduction() {
 
     return (
 
-        <div className="section flex-col-reverse md:flex-row">
+        <div className="section">
 
             <div
                 className="flex flex-col justify-center gap-2 w-full h-1/2 md:w-1/2 md:h-full"

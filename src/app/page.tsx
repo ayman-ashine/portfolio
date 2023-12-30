@@ -1,12 +1,11 @@
-
 'use client'
 
+import { useState } from 'react'
+import { SECTIONS } from "@/data/modules"
 import {
   Header,
   Introduction
 } from '@/components/modules'
-import { useState } from 'react'
-import { SECTIONS } from "@/data/modules"
 
 export default function Home() {
 
